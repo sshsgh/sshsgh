@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#005BAC"/>
+      <stop offset="1" stop-color="#003F7A"/>
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bfe9ff"/>
+      <stop offset="1" stop-color="#8fd8ff"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="0" y1="170" x2="900" y2="170" stroke="#2b2b2b" stroke-width="5" />
+
+  <text x="450" y="150" font-family="'Noto Sans', sans-serif" font-size="40" font-weight="bold" fill="#2c64b8ff" text-anchor="middle">sshsgh</text>
+
+  <g id="train" transform="translate(900,0)">
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      from="1500 0"
+                      to="-600 0"
+                      dur="10s" repeatCount="indefinite" />
+
+    <g id="car1" transform="scale(-1,1) translate(-260,110)">
+      <rect x="0" y="0" width="260" height="60" rx="10" fill="url(#bodyGrad)" />
+      <g fill="url(#windowGrad)" stroke="#66bfee" stroke-width="1">
+        <rect x="30" y="8" width="40" height="28" rx="4"/>
+        <rect x="80" y="8" width="40" height="28" rx="4"/>
+        <rect x="130" y="8" width="40" height="28" rx="4"/>
+        <rect x="180" y="8" width="40" height="28" rx="4"/>
+      </g>
+    </g>
+
+    <g id="car2" transform="scale(-1,1) translate(-520,110)">
+      <rect x="0" y="0" width="260" height="60" rx="10" fill="url(#bodyGrad)" />
+      <g fill="url(#windowGrad)" stroke="#66bfee" stroke-width="1">
+        <rect x="30" y="8" width="40" height="28" rx="4"/>
+        <rect x="80" y="8" width="40" height="28" rx="4"/>
+        <rect x="130" y="8" width="40" height="28" rx="4"/>
+        <rect x="180" y="8" width="40" height="28" rx="4"/>
+      </g>
+    </g>
+  </g>
+</svg>
